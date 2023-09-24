@@ -1,0 +1,103 @@
+body {
+    background-color: #000000;
+    background-size: 55px 55px;
+    background-image:
+        linear-gradient(to right, #3dc7fa 1px, transparent 1px),
+        linear-gradient(to bottom, #3dc7fa 1px, transparent 1px);
+}
+
+#circle {
+    background-color: #3dc7fa;
+    border: 1px solid white;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    opacity: 14%;
+    margin-top: 13px;
+    margin-left: -416px;
+    z-index: -1;
+}
+
+#container1 {
+    display: flex;
+}
+
+#lane1 {
+    position: absolute;
+    margin-left: 48.5px;
+    margin-top: 48.5px;
+}
+
+#lane1 img {
+    width: 53px;
+    height: 53px;
+}
+
+
+.peer1 {
+    position: relative;
+}
+
+.peer2 {
+    margin-left: -1.5px;
+    position: relative;
+}
+
+.peer3 {
+    margin-left: -1.5px;
+    position: relative;
+}
+
+#lane2 img {
+    width: 53px;
+    height: 53px;
+}
+
+.peer4 {
+    margin-top: 103.5px;
+    margin-left: 48.5px;
+    position: relative;
+}
+
+.peer5 {
+    margin-top: 103.5px;
+    margin-left: 53.5px;
+    position: relative;
+}
+
+#lane3 img {
+    width: 53px;
+    height: 53px;
+    margin-top: -2px;
+}
+
+.peer6 {
+    margin-left: 48.5px;
+    position: relative;
+}
+
+.peer7 {
+    margin-left: -1.5px;
+    position: relative;
+}
+
+.peer8 {
+    margin-left: -1.5px;
+    position: relative;
+}
+
+.arrow {
+    height: 1px;
+    width: 1px;
+    position: relative;
+    margin-left: -2px;
+    margin-top: 40px;
+    z-index: -1;
+}
+
+#screenshare1 {
+    margin-top: 50px;
+    margin-left: 3px;
+    height: 105px;
+    width: 160px;
+}
